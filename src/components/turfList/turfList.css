@@ -1,0 +1,30 @@
+.turfList{
+    width:100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.turfListItem{
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.turfListImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.turfListTitles>h1{
+    font-size: 18px;
+  
+}
+
+.turfListTitles>h2{
+    font-size: 16px;
+  font-weight: 300;
+}
